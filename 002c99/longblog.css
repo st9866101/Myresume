@@ -1,0 +1,27 @@
+      .longblog {
+    top: 12px;
+    left: 30px;
+    min-width: 111px;
+    width: 111px;
+    min-height: 60px;
+    height: 60px;
+    display: block;
+    z-index: 106;
+    overflow: hidden;
+            z-index: -999;
+        }
+
+ .longblog img {
+    
+        }
+
+        .longblog img {
+            min-height: 100%;
+            width: 100%;
+        }
+.user {
+  
+    font: 400 0.4rem/1.2rem "微软雅黑";
+    padding: 0 0.1rem;
+    color: gray;
+}

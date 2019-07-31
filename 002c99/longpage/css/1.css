@@ -1,0 +1,350 @@
+#wb_header {
+    height: 71px;
+}
+
+#wb_header > .wb_cont_bg {
+    background: transparent none repeat left top;
+    background-size: auto auto;
+}
+
+#wb_main {
+    height: 2560px;
+    padding-top: 71px;
+}
+
+#wb_main > .wb_cont_bg {
+    background: transparent none repeat left top;
+    background-size: cover;
+}
+
+#wb_footer {
+    height: 30px;
+}
+
+#wb_footer > .wb_cont_bg {
+    background: transparent none repeat left top;
+    background-size: auto auto;
+}
+
+body {
+    background: #ffffff none repeat scroll left top;
+    background-size: contain;
+}
+
+.wb_sbg {
+    background: transparent none repeat-x left top;
+}
+
+body,
+.wb_sbg {
+    min-width: 320px;
+    min-height: 2661px;
+}
+
+.wb_cont_inner {
+    width: 320px;
+    height: 100%;
+}
+
+.wb_cont_bg {
+    width: 320px;
+    margin-left: -160px;
+}
+
+.root {
+    height: 2661px;
+   
+    min-height: 2661px;
+}
+
+#wb_element_instance0 {
+    top: 10px;
+    left: 165px;
+    min-width: 150px;
+    width: 150px;
+    min-height: 46px;
+    height: 46px;
+    display: block;
+    z-index: 16;
+}
+
+#wb_element_instance0 img {
+    width: 150px;
+    height: 46px;
+    display: block;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+
+#wb_element_instance1 p:last-child {
+    margin-bottom: 0;
+}
+
+#wb_element_instance1 {
+    top: 34px;
+    left: 7px;
+    min-width: 205px;
+    width: 205px;
+    min-height: 25px;
+    height: 25px;
+    display: block;
+    z-index: 17;
+}
+
+#wb_element_instance2 > .wb-elm-line {
+    margin: 1px 0 0 0;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    border-top: 1px solid #a39e9e;
+    ;
+}
+
+#wb_element_instance2 {
+    top: 59px;
+    left: 0px;
+    min-width: 320px;
+    width: 320px;
+    min-height: 12px;
+    height: 12px;
+    display: block;
+    z-index: 18;
+}
+
+#wb_element_instance3 p:last-child {
+    margin-bottom: 0;
+}
+
+#wb_element_instance3 {
+    top: 105px;
+    left: 10px;
+    min-width: 300px;
+    width: 30px;
+    min-height: 2455px;
+    height: 2455px;
+    display: block;
+    z-index: 11;
+}
+
+#wb_element_instance4 p:last-child {
+    margin-bottom: 0;
+}
+
+#wb_element_instance4 {
+    top: 10px;
+    left: 10px;
+    min-width: 200px;
+    width: 200px;
+    min-height: 33px;
+    height: 33px;
+    display: block;
+    z-index: 12;
+}
+
+#wb_element_instance5 p:last-child {
+    margin-bottom: 0;
+}
+
+#wb_element_instance5 {
+    top: 52px;
+    left: 4%;
+    min-width: 250px;
+    width: 250px;
+    min-height: 24px;
+    height: 24px;
+    display: block;
+    z-index: 13;
+ 
+}
+
+#wb_header_bg {
+    background: #ffffff none repeat scroll left top;
+    background-size: contain;
+    background-image: none;
+    height: 71px;
+}
+
+#wb_sbg_placeholder {
+    background: transparent none repeat-x left top;
+    height: 71px;
+}
+
+#wb_main .wb_cont_outer {
+    top: 71px;
+}
+
+#wb_element_instance6 {
+    top: 3305px;
+    left: 0px;
+    display: block;
+    z-index: 9000;
+}
+
+#wb_element_instance7 {
+    top: 20px;
+    left: 0px;
+    display: block;
+    z-index: 9999;
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    #wb_header {
+        height: 101px;
+    }
+    #wb_main {
+        height: 3285px;
+        padding-top: 101px;
+    }
+    #wb_footer {
+        height: 30px;
+    }
+    body,
+    .wb_sbg {
+        min-width: 1200px;
+        min-height: 3416px;
+    }
+    .wb_cont_inner {
+        width: 1200px;
+    }
+    .wb_cont_bg {
+        width: 1200px;
+        margin-left: -600px;
+    }
+    .root {
+        height: 3416px;
+        overflow: visible;
+        min-height: 3416px;
+    }
+    #wb_element_instance0 {
+        top: 0px;
+        left: 920px;
+        min-width: 251px;
+        width: 251px;
+        min-height: 80px;
+        height: 80px;
+        display: block;
+        overflow: hidden;
+    }
+    #wb_element_instance0 img {
+        width: 250px;
+        height: 80px;
+        display: block;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        max-width: inherit;
+    }
+    #wb_element_instance1 {
+        top: 20px;
+        left: 85px;
+        min-width: 205px;
+        width: 205px;
+        min-height: 40px;
+        height: 40px;
+        display: block;
+    }
+    
+#wb_element_instance2 > .wb-elm-line {
+    margin: 1px 0 0 0;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    border-top: 2px solid #a39e9e;
+    ;
+}
+
+    #wb_element_instance2 {
+        top: 80px;
+        left: 0px;
+        min-width: 1200px;
+        width: 1200px;
+        min-height: 17px;
+        height: 17px;
+        display: block;
+    }
+    #wb_element_instance3 {
+        top: 143px;
+        left: 96px;
+        min-width: 852px;
+        width: 852px;
+        min-height: 3142px;
+        height: 3142px;
+        display: block;
+    }
+    #wb_element_instance4 {
+        top: 10px;
+        left: 90px;
+        min-width: 200px;
+        width: 200px;
+        min-height: 65px;
+        height: 65px;
+        display: block;
+    }
+    #wb_element_instance5 {
+        top: 90px;
+        left: 8%;
+        min-width: 335px;
+        width: 335px;
+        min-height: 24px;
+        height: 24px;
+        display: block;
+    }
+    #wb_main .wb_cont_outer {
+        top: 101px;
+    }
+    #wb_header_bg {
+        height: 101px;
+    }
+    #wb_sbg_placeholder {
+        height: 101px;
+    }
+    #wb_element_instance6 {
+        top: 3305px;
+        left: 0px;
+        display: block;
+    }
+    #wb_element_instance7 {
+        top: 20px;
+        left: 0px;
+        display: block;
+    }
+}
+
+/* test */
+.wb-stl-special1 {
+    font: normal normal 20px Arial, Helvetica, sans-serif;
+    font-weight: bolder ;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+    line-height: 33px;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.wb-stl-highlight1 {
+    font: normal bolder 16px Comic Sans MS, cursive;
+    
+    color: #6e6b66;
+    text-decoration: none;
+    text-align: ;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-transform: uppercase;
+}
+.wb_element_picture{
+       left: 100px;
+}
+#wb_element_instance3 img {
+max-width:300px;
+myimg:expression(onload=function(){
+this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
+left: 100px;
+}

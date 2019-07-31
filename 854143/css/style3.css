@@ -1,0 +1,367 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #FFFFFF;
+    font-family: 'Microsoft JhengHei';
+}
+
+a[title="站长统计"] {
+    display: none;
+}
+
+header {
+    background-color: #f1f1f6;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+.mobile-logo {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.section-1 {
+    width: 90%;
+    margin: 3% auto;
+}
+
+.section-1--title {
+    text-align: center;
+}
+
+.section-1--title img {
+    width: 30%;
+}
+
+.section-1--body {
+    text-align: center;
+    margin: 4% 0;
+}
+
+.section-1--body div {
+    position: relative;
+    padding: 0;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    height: 300px;
+    box-shadow: 0px 0px 30px 2px #DDD;
+}
+
+.section-1--body span {
+    padding: 0;
+}
+
+.section-1 .iwant-btn {
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, 0);
+}
+
+.section-1--subtitle {
+    font-size: 36px;
+    font-weight: 600;
+    color: #888888;
+    margin-top: 2%;
+}
+
+.range-title,
+.range-title2 {
+    font-size: 26px;
+    display: block;
+    color: #888888;
+    width: 100%;
+    height: fit-content;
+    font-weight: 600;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.range-number,
+.range-number2 {
+    display: block;
+    font-size: 75px;
+    font-weight: 100;
+    color: #000;
+}
+
+.cash-title,
+.cash-title2 {
+    font-size: 26px;
+    display: block;
+    color: #888888;
+    width: 100%;
+    height: fit-content;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+.cash-number,
+.cash-number2 {
+    display: block;
+    font-size: 85px;
+    font-weight: 100;
+    color: #ff7054;
+}
+
+.cash-desc,
+.cash-desc2 {
+    color: #888888;
+    font-size: 18px;
+}
+
+.separate {
+    height: 5vw;
+}
+
+.section-2 {
+    background-color: #f1f1f6;
+    width: 100%;
+}
+
+.section-2--title {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.section-2--title img {
+    width: 17%;
+}
+
+.section-2 picture img {
+    width: 100%;
+    margin: 4% 0;
+}
+
+.section-3 {
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.section-3--title {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.section-3--title img {
+    width: 12%;
+}
+
+.section-3 .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-3 .links a {
+    width: 185px;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 0px #ccc;
+    color: #000;
+    transition: .2s;
+}
+
+.section-3 .links a:hover {
+    text-decoration: none;
+    background-color: rgb(200, 025, 060);
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 1% 0;
+    text-align: center;
+}
+
+footer img {
+    width: 30%;
+}
+
+
+.float {
+    cursor: pointer;
+    position: absolute;
+    width: 9%;
+    right: 5%;
+    transform: translateY(-50%);
+    transition: .3s;
+}
+
+.float img {
+    display: block;
+    width: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 950px) {
+    .cash-number {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .control {
+        width: 40px;
+        height: 40px;
+    }
+
+    .prev {
+        transform: translate(0, -50%);
+    }
+
+    .next {
+        transform: translate(0, -50%);
+
+    }
+
+    .nav-group {
+        bottom: 0;
+        text-align: center;
+    }
+
+    .nav-group .dot {
+        width: 10px;
+        height: 10px;
+        margin: 3px;
+    }
+
+    .section-1--title {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+
+    .section-1--subtitle {
+        font-size: 30px;
+    }
+
+    .section-1--title img {
+        width: 80%;
+    }
+
+    .section-1--body div {
+        height: 200px;
+    }
+
+    .section-2--title {
+        padding-top: 5%;
+    }
+
+    .section-2--title img {
+        width: 40%;
+    }
+
+    .section-3--title img {
+        width: 25%;
+    }
+
+    .range-title,
+    .range-title2 {
+        margin-top: 3%;
+        margin-bottom: 0;
+    }
+
+    .range-number,
+    .range-number2 {
+        font-size: 7vw;
+    }
+
+    .cash-title,
+    .cash-title2 {
+        margin-top: 3%;
+        margin-bottom: 0;
+    }
+
+    .cash-number,
+    .cash-number2 {
+        font-size: 70px;
+    }
+
+    .cash-desc,
+    .cash-desc2 {
+        font-size: 12px;
+    }
+
+    input[type=range] {
+        margin: 5% 0;
+    }
+
+    .section-slider .iwant-btn {
+        width: 50%;
+        bottom: 6%;
+    }
+
+    .section-1 .iwant-btn {
+        width: 60%;
+        margin: 2% 0;
+    }
+
+    .mobile-logo {
+        display: block;
+    }
+
+    .section-1--body {
+        width: 95%;
+        margin: 5% auto;
+    }
+
+    .section-3 .links {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section-3 .links a {
+        width: 110px;
+        font-size: 13px;
+        padding: 4px;
+        margin: 5px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 3px 0px #ccc;
+        color: #000;
+    }
+
+    footer {
+        padding: 3% 0;
+    }
+
+    footer img {
+        width: 70%;
+    }
+
+    .float {
+        right: 1%;
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .range-number,
+    .range-number2 {
+        font-size: 12vw;
+        margin: 5% 0;
+    }
+
+    .section-1--subtitle {
+        font-size: 26px;
+    }
+}

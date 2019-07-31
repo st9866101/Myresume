@@ -1,0 +1,435 @@
+body {
+    margin: 0;
+  
+}
+@media only screen and (max-width: 420px) {
+    .flag{
+        background-size: 0;
+    }
+  .KufuFixedPc{
+   position: absolute;
+    width: 13%;
+    z-index: 1234;
+    /*background-color: white;*/
+        top: 0px;
+      right:0;
+    }
+    .nav > img {
+        display: block;
+        position: absolute;
+        width: 20%;
+        top: 87%;
+        left: 3%;
+    
+    }
+    .webBannew{
+    
+        width:100%;
+          background-image:url(https://854143-1254059195.cos.ap-shanghai.myqcloud.com/01_1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding:186% 0 0 0;
+      }
+      .webBannewNext{
+        position:relative;
+        margin:0 auto;
+        width: 100%;
+          background-image:url(	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/01_2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding:53% 0 0 0;
+      }
+      .webBannewNext > img {
+        display: block;
+        position: absolute;
+        width: 20%;
+        top: 55%;
+        left: 4%;
+    
+    }
+  .Experience {
+    position: relative;
+    padding-top: 53%;
+    width: 100%;
+    height: auto;
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/Experience-mo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Experience > img {
+    display: block;
+    position: absolute;
+    width: 20%;
+    top: 58%;
+    left: 54%;
+
+}
+
+.easy {
+    position: relative;
+    padding-top: 53%;
+    width: 100%;
+    height: auto;
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/easy-mo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.easy > img {
+    display: block;
+    position: absolute;
+    width: 20%;
+    top: 64%;
+    left: 3%;
+
+}
+
+.Feedback {
+    position: relative;
+    padding-top: 53%;
+    width: 100%;
+    height: auto;
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/Feedback-mo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Feedback > img {
+    display: block;
+    position: absolute;
+    width: 20%;
+    top: 52%;
+    left: 54%;
+
+}
+
+  .down {
+    position: relative;
+    padding-top: 8%;
+    width: 100%;
+    
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/down-mo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+  .barbg {
+    display: block;
+    width: 90%;
+    margin-left: 7%;
+}
+
+    .plan {
+    position: relative;
+    padding-top: 56%;
+    width: 100%;
+    height: auto;
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/plan-mo.png");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+}
+ 
+    .mobile {
+    position: relative;
+    padding-top: 53%;
+    width: 100%;
+    height: auto;
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/mobilemb.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mobile > img {
+    display: block;
+    position: absolute;
+    width: 20%;
+    top: 53%;
+    left: 3%;
+
+}
+.newCenter{
+  width:50%;
+  margin:10% 20%;
+}
+.logopc {
+    position: fixed;
+    top:0;
+    margin: 3% 0 0 38%;
+    width: 25%;
+}
+}
+
+/*以上手机*/
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 53px;
+    width: 100%;
+    z-index: 1234;
+    background-color: white;
+    display: none;
+}
+
+.logo {
+    margin: 3% 0 0 38%;
+    width: 25%;
+}
+
+.kufu {
+    width: 6%;
+    margin: 0 0 0 24%;
+}
+
+.nav {
+    position: relative;
+    padding-top: 123%;
+    width: 100%;
+    height: auto;
+    background-image: url("	https://854143-1254059195.cos.ap-shanghai.myqcloud.com/nav.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 0 2px 0;
+    background-position: 50% 100%;
+
+}
+
+
+
+
+
+.bar {
+    position: relative;
+    padding-top: 45%;
+    width: 100%;
+    /*    height:auto;*/
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/bar.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*.plan {
+    position: relative;
+    padding-top: 42%;
+    width: 100%;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/plan.png");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+}*/
+
+
+
+
+
+
+
+@media only screen and (min-width: 420px) {
+  .newCenter{
+  width:21%;
+  margin:4% 40%;
+}
+  .newWidth{
+  	width:60%;
+    margin:0 auto;
+  }
+  .webNav{
+    position: relative;
+      width:100%;
+  }
+  .webBannew{
+    
+    width:100%;
+  	background-image:url(https://854143-1254059195.cos.ap-shanghai.myqcloud.com/00_1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:68% 0 0 0;
+  }
+  .webBannewNext{
+    position:relative;
+    margin:0 auto;
+    width:60%;
+  	background-image:url(https://854143-1254059195.cos.ap-shanghai.myqcloud.com/00_2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding:24.8% 0 0 0;
+  }
+  .webBannewNext > img {
+        display: block;
+        position: absolute;
+        width: 16%;
+        top: 60%;
+        left: 10%;
+    
+    }
+    .nav {
+     display: none;
+        position: relative;
+        padding-top: 118%;
+        width: 100%;
+        height: auto;
+        background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/nav.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin: 0 0 0 0;
+        background-position: 50% 20%;
+    
+    }
+    .nav > img {
+        display: block;
+        position: absolute;
+        width: 20%;
+        top: 85%;
+        left: 3%;
+    
+    }
+
+    .navbar {
+        display: none;
+    }
+  .Experience {
+    position: relative;
+    padding-top: 26.8%;
+    width: 60%;
+     margin:0 auto;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/Experience.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Experience > img {
+    display: block;
+    position: absolute;
+    width: 16%;
+    top: 63%;
+    left: 52%;
+
+}
+
+.easy {
+    position: relative;
+    padding-top: 26.8%;
+    width: 60%;
+     margin:0 auto;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/easy.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.easy > img {
+    display: block;
+    position: absolute;
+    width: 16%;
+    top: 68%;
+    left: 10%;
+
+}
+
+.Feedback {
+    position: relative;
+    padding-top: 27.1%;
+    width: 60%;
+     margin:0 auto;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/Feedback.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Feedback > img {
+    display: block;
+    position: absolute;
+    width: 16%;
+    top: 65%;
+    left: 51.5%;
+
+}
+.mobile {
+    position: relative;
+    padding-top: 26.8%;
+    width: 60%;
+     margin:0 auto;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/mobilepc.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mobile > img {
+    display: block;
+    position: absolute;
+    width: 16%;
+    top: 62%;
+    left: 10%;
+
+}
+  .plan {
+    position: relative;
+    padding-top: 28%;
+    width: 60%;
+    margin:-1px auto;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/plan.png");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+}
+  .down {
+    position: relative;
+    padding-top: 3%;
+    width: 100%;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/07.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    .logopc {
+        display: block;
+        position: absolute;
+        width: 15%;
+        top: 1%;
+        left: 9%;
+    }
+  .barbg {
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+}
+
+    .plan {
+    position: relative;
+    padding-top: 28.9%;
+    width: 60%;
+    height: auto;
+    background-image: url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/plan.png");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+}
+
+    .KufuFixedPc{
+   position: absolute;
+    width: 8%;
+    z-index: 1234;
+    /*background-color: white;*/
+        top: 0px;
+      right:0;
+    }
+    .flag{
+        background-image:url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/flag01.png"), url("https://854143-1254059195.cos.ap-shanghai.myqcloud.com/flag02.png");
+        background-position: 0% 0%,99.9% 0%;
+        background-repeat: no-repeat,no-repeat;
+        background-attachment: scroll;
+    }
+}
+.OnclickKufu {
+	cursor: pointer;
+}

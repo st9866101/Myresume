@@ -1,0 +1,124 @@
+.section-slider {
+    background-color: #f1f1f6;
+    position: relative;
+}
+
+.slider {
+    /* width初始值 由js操控*/
+    width: 70%;
+    transform: translateY(-25%);
+    margin: 0 auto;
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    pointer-events: none;
+    border-radius: 5px;
+}
+
+#items {
+    width: 10000px;
+    position: relative;
+    top: 0;
+    /*left初始值 由js操控*/
+    left: calc(-1280px * 0.7);
+}
+
+#items.shifting {
+    transition: left .3s ease-out;
+}
+
+.slide {
+    /*width初始值 由js操控*/
+    width: calc(1280px * 0.7);
+    height: auto;
+    cursor: pointer;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* transition: all 1s; */
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide .step-img {
+    /*width初始值 由js操控*/
+    width: calc(1280px * 0.7);
+    height: auto;
+    object-fit: contain;
+}
+
+.section-slider .iwant-btn {
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 20%;
+    bottom: 4%;
+}
+
+.nav-group {
+    z-index: 8;
+    width: 100%;
+    text-align: right;
+    display: block;
+    position: absolute;
+    bottom: -1%;
+    pointer-events: none;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.nav-group .dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #DDD;
+}
+
+.dot.current {
+    background-color: #888;
+}
+
+
+.control {
+    position: absolute;
+    top: 50%;
+    width: 65px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.prev,
+.next {
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.prev {
+    background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronLeft-512.png);
+    left: 0px;
+    transform: translate(-50%, -50%);
+}
+
+.next {
+    background-image: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronRight-512.png);
+    right: 0px;
+    transform: translate(50%, -50%);
+}
+
+.prev:active,
+.next:active {}

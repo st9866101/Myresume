@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clipboard示例</title>
+    <script src="js/clipboard.min.js"></script>
+</head>
+<body>
+
+<h2>從屬性裏複製</h2>
+<!--data-clipboard-text屬性的值將會被複制-->
+<div id="btn" class="js-copy" data-clipboard-text="111-從屬性複製">
+    <span>複製到剪切板-111</span>
+</div>
+<hr>
+
+<h2>從另外一個元素複製內容</h2>
+<textarea id="bar">222-從另外一個元素複製內容</textarea>
+<button id="btn2" data-clipboard-target="#bar">複製到剪切板-222</button>
+<hr>
+
+
+<button id="btn3" data-clipboard-target="#bar" style="background-color: transparent; border: 0;" >cai99kefu1</button>
+
+<script>
+
+   
+    var btn3 = document.getElementById('btn3');
+    var clipboard3 = new Clipboard(btn3, {
+        text: function() {
+             alert("复制成功 请加入精采人生");
+            return 'abn123';  
+        }
+        
+    });
+   
